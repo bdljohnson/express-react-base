@@ -7,7 +7,7 @@
     "server-dev": "node app.js",
     "dev": "npm-run-all -p -r watch-dev server-dev",
     "build": "parcel build src/index.html --out-dir public/ --public-url ./",
-    "start": "node app.js",
+    "start": "parcel build src/index.html --out-dir public/ --public-url ./ && node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {

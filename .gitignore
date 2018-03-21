@@ -56,8 +56,9 @@ typings/
 
 # dotenv environment variables file
 .env
-# dist folder
+# dist and public folder
 dist/
+public/
 # parcel cache
 .cache/
 
