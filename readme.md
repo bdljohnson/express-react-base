@@ -4,7 +4,7 @@ Simple starter code for an Express app serving React.
 
 ## Getting Started
 
-This will build using parcel, and serve the React app with an entry point at src/index.html
+This will build using parcel, and serve the React app with an entry point at [index.html](src/index.html)
 
 ### Prerequisites
 
@@ -41,18 +41,13 @@ The app is also configured to deploy to Heroku already, simply create an account
 heroku create MY_APP_NAME
 git push heroku master
 ```
-The 'start' script located within the package.json file will both build the React app and start the server.
+The 'start' script located within the [package.json](package.json) file will both build the React app and start the server.
 
 ## Built With
 
 * [React](https://reactjs.org) - The web framework used
 * [Parcel.js](https://parceljs.org/) - Zero-configuration Build Tool
 * [Express](https://expressjs.com/) - Node Backend Framework
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
 
 ## Authors
 
