@@ -1,6 +1,6 @@
-# Project Title
+# Express React Starter
 
-Simple starter code for an express app serving React.
+Simple starter code for an Express app serving React.
 
 ## Getting Started
 
@@ -8,11 +8,7 @@ This will build using parcel, and serve the React app with an entry point at src
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-You need to have node and npm installed.
-```
+You need both Node.js and npm installed.
 
 ### Installing
 
@@ -38,6 +34,7 @@ To deploy this, run:
 npm run build
 ```
 This will build the React app for production into the 'public/' folder.
+You can then deploy to the platform of your choice, just ensure that NODE_ENV is set to production to ensure the app is served from 'public/'.
 
 ## Built With
 
