@@ -36,6 +36,13 @@ npm run build
 This will build the React app for production into the 'public/' folder.
 You can then deploy to the platform of your choice, just ensure that NODE_ENV is set to production to ensure the app is served from 'public/'.
 
+The app is also configured to deploy to Heroku already, simply create and account, download the Heroku CLI and:
+```
+heroku create MY_APP_NAME
+git push heroku master
+```
+The 'start' script located within the package.json file will both build the React app and start the server.
+
 ## Built With
 
 * [React](https://reactjs.org) - The web framework used
