@@ -1,6 +1,6 @@
 const express = require('express');
 const path = require('path');
-
+const port = process.env.PORT || 3000;
 let app = express();
 if(process.env.NODE_ENV !== 'production'){
     app.use(express.static('dist'));
@@ -19,6 +19,6 @@ app.get('/', (req, res)=>{
     
 })
 
-app.listen(3000, ()=>{
+app.listen(PORT, ()=>{
     console.log('Started')
 });
